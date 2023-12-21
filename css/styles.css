@@ -1,16 +1,17 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
-    color: #2E2F42;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 /****************** HEADER**/
 .web {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -51,8 +52,12 @@ body {
 }
 
 .nav-studio:hover,
-.nav-studio:active {
+.nav-studio:focus {
     color: #404BBF
+}
+
+.adrs-section {
+    font-style: normal
 }
 
 .adrs {
@@ -65,7 +70,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.adrs:hover {
+.adrs:hover,
+.adrs:focus {
     color: #404BBF
 }
 
@@ -74,7 +80,7 @@ body {
     background: #2E2F42;
 }
 
-.h1 {
+.section-one {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -86,17 +92,19 @@ body {
 }
 
 .btn {
-    color: #4D5AE5;
-    font-family: Roboto;
+    background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: #ffffff;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     color: #404BBF;
 }
 
@@ -135,6 +143,10 @@ body {
     /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.list-item {
+    background-color: #FFFFFF
 }
 
 .team-names {
@@ -197,11 +209,11 @@ body {
 
 .studio-footer {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
